@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a70752ffda16544b156bb390b8c269, type: 3}
+  m_Name: Herb Leaf
+  m_EditorClassIdentifier: 
+  itemName: Herb Leaf
+  description: A common healing herb used as the foundation for most beginner potions.
+  itemType: 0
+  icon: {fileID: 85303089, guid: 2545c746c60e06642b6253c5286e9d3a, type: 3}
+  sourceRegion: 0
+  baseValue: 20
+  itemRarity: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e6081357506ee479f70327156ab8e4, type: 3}
+  m_Name: Spirit Grove
+  m_EditorClassIdentifier: 
+  expeditionTitle: Spirit Grove
+  description: Where light and darkness intersect, where spirits reside.
+  levelDifficulty: 3
+  requiredPower: 2800
+  durationInPeriods: 3
+  baseSuccessRate: 55
+  currentSuccessRate: 55
+  regionElement: 3
+  maxLootItems: 24
+  bassMaxLootItems: 12
+  possibleLoots:
+  - {fileID: 11400000, guid: e4aadf30f45207649a0af764d617a17e, type: 2}
+  - {fileID: 11400000, guid: e5ec640f980cf41499c88738efcded98, type: 2}
+  - {fileID: 11400000, guid: 1b08375d86bc7b94aa20c914084a33ca, type: 2}
+  - {fileID: 11400000, guid: 0efbc90bc84d79644883f6ed0a810ed5, type: 2}
+  expeditionMilitary: {fileID: 11400000, guid: 981195aa7d2d0414d83acd8789c59b45, type: 2}
+  isOnExpedition: 0

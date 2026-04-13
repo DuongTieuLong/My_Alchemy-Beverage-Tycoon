@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7f171e4e0e89746b2c8801dd0d3d6b, type: 3}
+  m_Name: Blackmist Elixir Recipe
+  m_EditorClassIdentifier: 
+  recipeRank: 1
+  potion: {fileID: 11400000, guid: 794f42c3e1bce984e954e2bfacadeb58, type: 2}
+  requiredIngredients:
+  - {fileID: 11400000, guid: 2f48d815d56aac345b620a306e50874d, type: 2}
+  - {fileID: 11400000, guid: ae0cf33cbc77d274fa905ed8a5870b65, type: 2}
+  - {fileID: 11400000, guid: f963e19c99d855f4ebad9bf2e1bcb6e0, type: 2}
+  timeToBrew: 6
+  minTemp: 112
+  maxTemp: 118
+  optimalStir: 1
+  autoUnlockThreshold: 5
+  brewedCount: 0

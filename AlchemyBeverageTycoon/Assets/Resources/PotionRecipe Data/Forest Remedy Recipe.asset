@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7f171e4e0e89746b2c8801dd0d3d6b, type: 3}
+  m_Name: Forest Remedy Recipe
+  m_EditorClassIdentifier: 
+  recipeRank: 1
+  potion: {fileID: 11400000, guid: a65aac22af6150b43a7e0414a1ea0faf, type: 2}
+  requiredIngredients:
+  - {fileID: 11400000, guid: 65c42d59207bcff4ca2b8740f361c4c2, type: 2}
+  - {fileID: 11400000, guid: ab03aa3895bc72c4c9babb617783c9d9, type: 2}
+  - {fileID: 11400000, guid: a0dd5fe69185b114785837884e81027c, type: 2}
+  timeToBrew: 6
+  minTemp: 111
+  maxTemp: 119
+  optimalStir: 2
+  autoUnlockThreshold: 5
+  brewedCount: 0

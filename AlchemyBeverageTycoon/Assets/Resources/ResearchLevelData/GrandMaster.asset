@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b899ca7a236bd4c9ac0d0f7da6406b, type: 3}
+  m_Name: GrandMaster
+  m_EditorClassIdentifier: 
+  recipeToUnlock:
+  - {fileID: 11400000, guid: 9b3dac8581f3f2f43a28423f1615119b, type: 2}
+  - {fileID: 11400000, guid: 70172aeb6511aa14c92e2802e2d85577, type: 2}
+  - {fileID: 11400000, guid: 4953c995e6a72aa4ea1c4e99b002f5be, type: 2}
+  levelName: GrandMaster
+  goldRequired: 15000
+  itemRequirements:
+  - item: {fileID: 11400000, guid: 486514662b7f7db4da1d62f8f7cb53fe, type: 2}
+    requiredAmount: 10
+  - item: {fileID: 11400000, guid: c92d42cd9dbc7a34381ee8884ebde3fc, type: 2}
+    requiredAmount: 10
+  - item: {fileID: 11400000, guid: fa647f54a8cdad14a888614dbd6d9847, type: 2}
+    requiredAmount: 10
+  isMax: 0

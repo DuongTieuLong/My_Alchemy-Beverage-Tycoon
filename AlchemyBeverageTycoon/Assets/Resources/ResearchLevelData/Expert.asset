@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b899ca7a236bd4c9ac0d0f7da6406b, type: 3}
+  m_Name: Expert
+  m_EditorClassIdentifier: 
+  recipeToUnlock:
+  - {fileID: 11400000, guid: c9f29757a643c374087aec7d33617662, type: 2}
+  - {fileID: 11400000, guid: 6757523693b60c440987b74ad623ef30, type: 2}
+  - {fileID: 11400000, guid: 7123ea351ea6bb4489921b39e986ec2b, type: 2}
+  - {fileID: 11400000, guid: 2dabe3410b43fc74495a6bb56c84f197, type: 2}
+  levelName: Expert
+  goldRequired: 5000
+  itemRequirements:
+  - item: {fileID: 11400000, guid: b90e600b6f84f084e8ca5a5e6daa11de, type: 2}
+    requiredAmount: 5
+  - item: {fileID: 11400000, guid: fafcdf644d8b4e14a9112d025cbadb70, type: 2}
+    requiredAmount: 5
+  - item: {fileID: 11400000, guid: 4cfbe7e3501dd884da8f8eeb16eb5804, type: 2}
+    requiredAmount: 5
+  - item: {fileID: 11400000, guid: 815598e7821f1a240b2c8f282d7d43fb, type: 2}
+    requiredAmount: 5
+  - item: {fileID: 11400000, guid: f963e19c99d855f4ebad9bf2e1bcb6e0, type: 2}
+    requiredAmount: 5
+  isMax: 0

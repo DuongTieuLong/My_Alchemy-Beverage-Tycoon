@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e6081357506ee479f70327156ab8e4, type: 3}
+  m_Name: Sunny Plains
+  m_EditorClassIdentifier: 
+  expeditionTitle: Sunny Plains
+  description: Weeds and light herbs grow everywhere
+  levelDifficulty: 0
+  requiredPower: 800
+  durationInPeriods: 2
+  baseSuccessRate: 80
+  currentSuccessRate: 80
+  regionElement: 0
+  maxLootItems: 48
+  bassMaxLootItems: 24
+  possibleLoots:
+  - {fileID: 11400000, guid: 84b1e3108d02d6242b9bb332b9073d50, type: 2}
+  - {fileID: 11400000, guid: c47e2ad3c71847b4192c9e65553836ab, type: 2}
+  - {fileID: 11400000, guid: c8272d79d6fa9614e8693a5ce4945011, type: 2}
+  expeditionMilitary: {fileID: 11400000, guid: 6ff562a3ee63e864c85ef532671560b5, type: 2}
+  isOnExpedition: 0

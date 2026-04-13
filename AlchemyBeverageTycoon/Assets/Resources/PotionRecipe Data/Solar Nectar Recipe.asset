@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7f171e4e0e89746b2c8801dd0d3d6b, type: 3}
+  m_Name: Solar Nectar Recipe
+  m_EditorClassIdentifier: 
+  recipeRank: 4
+  potion: {fileID: 11400000, guid: 9b3dac8581f3f2f43a28423f1615119b, type: 2}
+  requiredIngredients:
+  - {fileID: 11400000, guid: 486514662b7f7db4da1d62f8f7cb53fe, type: 2}
+  - {fileID: 11400000, guid: c92d42cd9dbc7a34381ee8884ebde3fc, type: 2}
+  timeToBrew: 15
+  minTemp: 192
+  maxTemp: 198
+  optimalStir: 2
+  autoUnlockThreshold: 12
+  brewedCount: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb35c45ef1cca845a062b183f651765, type: 3}
+  m_Name: Flame Brew
+  m_EditorClassIdentifier: 
+  itemName: Flame Brew
+  description: A fiery drink that grants a brief surge of raw power.
+  itemType: 2
+  icon: {fileID: 791288209, guid: 60912ed9d6667bd46bdaf965b61dff95, type: 3}
+  sourceRegion: 7
+  baseValue: 50
+  itemRarity: 0
+  potionRank: 2
+  purity: 0.8
+  strength: 0.8
+  elementMixs: 01000000
+  explorationBonus: 0.1
+  favoredRegionElement: 04000000

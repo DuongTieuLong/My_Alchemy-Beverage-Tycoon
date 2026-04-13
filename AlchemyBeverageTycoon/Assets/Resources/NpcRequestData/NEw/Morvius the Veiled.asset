@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c87e69e70e9a449a37d0b27bdf543f, type: 3}
+  m_Name: Morvius the Veiled
+  m_EditorClassIdentifier: 
+  npcName: Morvius the Veiled
+  requestText: I walk paths unseen. Mix me a evil potion so I can proceed.
+  responeGoodText: Excellent. The shadows welcome me again.
+  responeBadText: This exposes me. Do better next time.
+  requestedElement: 6
+  npcRank: 1
+  potionCountRequest: 1
+  rewardGold: 80
+  rewardReputation: 30
+  penaltyReputation: 15

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e6081357506ee479f70327156ab8e4, type: 3}
+  m_Name: Crimson Volcano
+  m_EditorClassIdentifier: 
+  expeditionTitle: Crimson Volcano
+  description: Danger zone contains strong fire energy.
+  levelDifficulty: 2
+  requiredPower: 2500
+  durationInPeriods: 2
+  baseSuccessRate: 60
+  currentSuccessRate: 60
+  regionElement: 1
+  maxLootItems: 32
+  bassMaxLootItems: 16
+  possibleLoots:
+  - {fileID: 11400000, guid: b90e600b6f84f084e8ca5a5e6daa11de, type: 2}
+  - {fileID: 11400000, guid: fafcdf644d8b4e14a9112d025cbadb70, type: 2}
+  - {fileID: 11400000, guid: 4cfbe7e3501dd884da8f8eeb16eb5804, type: 2}
+  - {fileID: 11400000, guid: 249928c86080bc84aa3e2de135e3a059, type: 2}
+  - {fileID: 11400000, guid: 520a11a39213c1e4cadf6691d6c5e093, type: 2}
+  expeditionMilitary: {fileID: 11400000, guid: ae0d914560fe46742b5f2d07d0a011eb, type: 2}
+  isOnExpedition: 0

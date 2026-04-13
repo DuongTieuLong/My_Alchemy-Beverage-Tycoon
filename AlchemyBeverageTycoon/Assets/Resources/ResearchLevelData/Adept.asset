@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b899ca7a236bd4c9ac0d0f7da6406b, type: 3}
+  m_Name: Adept
+  m_EditorClassIdentifier: 
+  recipeToUnlock:
+  - {fileID: 11400000, guid: a65aac22af6150b43a7e0414a1ea0faf, type: 2}
+  - {fileID: 11400000, guid: 264ec5c0f8153f348a83c67ce58aef58, type: 2}
+  - {fileID: 11400000, guid: cec71eadc6807e74f8ffe3b32d3c2d20, type: 2}
+  - {fileID: 11400000, guid: 83d5e6c128decc346b964c632fdc1c40, type: 2}
+  - {fileID: 11400000, guid: 8fe15b19936cbc741bab491ada019872, type: 2}
+  - {fileID: 11400000, guid: 794f42c3e1bce984e954e2bfacadeb58, type: 2}
+  levelName: Adept
+  goldRequired: 2000
+  itemRequirements:
+  - item: {fileID: 11400000, guid: 0b9deaba71ea0d042a1d0af6825e0055, type: 2}
+    requiredAmount: 3
+  - item: {fileID: 11400000, guid: ae0cf33cbc77d274fa905ed8a5870b65, type: 2}
+    requiredAmount: 3
+  - item: {fileID: 11400000, guid: 2f48d815d56aac345b620a306e50874d, type: 2}
+    requiredAmount: 3
+  - item: {fileID: 11400000, guid: c47e2ad3c71847b4192c9e65553836ab, type: 2}
+    requiredAmount: 8
+  - item: {fileID: 11400000, guid: 84b1e3108d02d6242b9bb332b9073d50, type: 2}
+    requiredAmount: 8
+  isMax: 0

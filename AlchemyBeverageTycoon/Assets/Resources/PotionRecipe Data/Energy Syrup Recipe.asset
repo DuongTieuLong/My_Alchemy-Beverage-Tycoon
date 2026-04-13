@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7f171e4e0e89746b2c8801dd0d3d6b, type: 3}
+  m_Name: Energy Syrup Recipe
+  m_EditorClassIdentifier: 
+  recipeRank: 0
+  potion: {fileID: 11400000, guid: 87082f563522d714784ff320c9583730, type: 2}
+  requiredIngredients:
+  - {fileID: 11400000, guid: 65c42d59207bcff4ca2b8740f361c4c2, type: 2}
+  - {fileID: 11400000, guid: a0dd5fe69185b114785837884e81027c, type: 2}
+  timeToBrew: 3
+  minTemp: 91
+  maxTemp: 98
+  optimalStir: 1
+  autoUnlockThreshold: 3
+  brewedCount: 1

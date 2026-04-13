@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e6081357506ee479f70327156ab8e4, type: 3}
+  m_Name: Blackmist Swamp
+  m_EditorClassIdentifier: 
+  expeditionTitle: Blackmist Swamp
+  description: A dark, gloomy swamp, full of danger
+  levelDifficulty: 1
+  requiredPower: 1200
+  durationInPeriods: 1
+  baseSuccessRate: 70
+  currentSuccessRate: 70
+  regionElement: 6
+  maxLootItems: 40
+  bassMaxLootItems: 20
+  possibleLoots:
+  - {fileID: 11400000, guid: 0b9deaba71ea0d042a1d0af6825e0055, type: 2}
+  - {fileID: 11400000, guid: ae0cf33cbc77d274fa905ed8a5870b65, type: 2}
+  - {fileID: 11400000, guid: 2f48d815d56aac345b620a306e50874d, type: 2}
+  - {fileID: 11400000, guid: c68a1fbf1c6efc94da83da3f723e0a73, type: 2}
+  - {fileID: 11400000, guid: 61f323299962a824cae4ca3d9f8780f7, type: 2}
+  expeditionMilitary: {fileID: 11400000, guid: ae0d914560fe46742b5f2d07d0a011eb, type: 2}
+  isOnExpedition: 0

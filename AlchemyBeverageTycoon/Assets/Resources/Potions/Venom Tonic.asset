@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb35c45ef1cca845a062b183f651765, type: 3}
+  m_Name: Venom Tonic
+  m_EditorClassIdentifier: 
+  itemName: Venom Tonic
+  description: A shadowy toxin delivering subtle poison favored by assassins.
+  itemType: 2
+  icon: {fileID: 1257003061, guid: bad3ca2b554b67e43a793a7df0af5756, type: 3}
+  sourceRegion: 7
+  baseValue: 50
+  itemRarity: 0
+  potionRank: 1
+  purity: 0.8
+  strength: 0.8
+  elementMixs: 06000000
+  explorationBonus: 0.075
+  favoredRegionElement: 05000000

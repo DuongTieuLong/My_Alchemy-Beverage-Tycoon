@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e6081357506ee479f70327156ab8e4, type: 3}
+  m_Name: Greenwood Forest
+  m_EditorClassIdentifier: 
+  expeditionTitle: Greenwood Forest
+  description: The first forest, safe, suitable for beginners.
+  levelDifficulty: 0
+  requiredPower: 500
+  durationInPeriods: 1
+  baseSuccessRate: 90
+  currentSuccessRate: 90
+  regionElement: 0
+  maxLootItems: 48
+  bassMaxLootItems: 24
+  possibleLoots:
+  - {fileID: 11400000, guid: 65c42d59207bcff4ca2b8740f361c4c2, type: 2}
+  - {fileID: 11400000, guid: a0dd5fe69185b114785837884e81027c, type: 2}
+  - {fileID: 11400000, guid: ab03aa3895bc72c4c9babb617783c9d9, type: 2}
+  - {fileID: 11400000, guid: b19638af3e888ed4fbd3a19a6fd41f3e, type: 2}
+  - {fileID: 11400000, guid: 39b86db0b2c42f14b88aef010c6de89e, type: 2}
+  expeditionMilitary: {fileID: 11400000, guid: 6ff562a3ee63e864c85ef532671560b5, type: 2}
+  isOnExpedition: 0

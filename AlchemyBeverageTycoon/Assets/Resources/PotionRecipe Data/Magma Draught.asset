@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7f171e4e0e89746b2c8801dd0d3d6b, type: 3}
+  m_Name: Magma Draught
+  m_EditorClassIdentifier: 
+  recipeRank: 1
+  potion: {fileID: 11400000, guid: 7123ea351ea6bb4489921b39e986ec2b, type: 2}
+  requiredIngredients:
+  - {fileID: 11400000, guid: b90e600b6f84f084e8ca5a5e6daa11de, type: 2}
+  - {fileID: 11400000, guid: 4cfbe7e3501dd884da8f8eeb16eb5804, type: 2}
+  timeToBrew: 6
+  minTemp: 140
+  maxTemp: 146
+  optimalStir: 1
+  autoUnlockThreshold: 5
+  brewedCount: 0

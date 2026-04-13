@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c87e69e70e9a449a37d0b27bdf543f, type: 3}
+  m_Name: Kaela Stormfang
+  m_EditorClassIdentifier: 
+  npcName: Kaela Stormfang
+  requestText: Before battle, I must calm the raging fire in my mind. Something soothing,
+    please.
+  responeGoodText: Peace at last. You have my respect.
+  responeBadText: This does nothing. The storm remains.9
+  requestedElement: 2
+  npcRank: 0
+  potionCountRequest: 1
+  rewardGold: 20
+  rewardReputation: 25
+  penaltyReputation: 14

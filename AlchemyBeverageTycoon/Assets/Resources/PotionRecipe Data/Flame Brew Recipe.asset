@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7f171e4e0e89746b2c8801dd0d3d6b, type: 3}
+  m_Name: Flame Brew Recipe
+  m_EditorClassIdentifier: 
+  recipeRank: 2
+  potion: {fileID: 11400000, guid: c9f29757a643c374087aec7d33617662, type: 2}
+  requiredIngredients:
+  - {fileID: 11400000, guid: b90e600b6f84f084e8ca5a5e6daa11de, type: 2}
+  - {fileID: 11400000, guid: fafcdf644d8b4e14a9112d025cbadb70, type: 2}
+  timeToBrew: 9
+  minTemp: 139
+  maxTemp: 147
+  optimalStir: 2
+  autoUnlockThreshold: 7
+  brewedCount: 0

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7f171e4e0e89746b2c8801dd0d3d6b, type: 3}
+  m_Name: Venom Tonic Recipe
+  m_EditorClassIdentifier: 
+  recipeRank: 1
+  potion: {fileID: 11400000, guid: cec71eadc6807e74f8ffe3b32d3c2d20, type: 2}
+  requiredIngredients:
+  - {fileID: 11400000, guid: 0b9deaba71ea0d042a1d0af6825e0055, type: 2}
+  - {fileID: 11400000, guid: ae0cf33cbc77d274fa905ed8a5870b65, type: 2}
+  timeToBrew: 6
+  minTemp: 107
+  maxTemp: 114
+  optimalStir: 2
+  autoUnlockThreshold: 5
+  brewedCount: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f66c31a59677b04a87cc6aa2f9370d1, type: 3}
+  m_Name: UpgradeBrewDatabase
+  m_EditorClassIdentifier: 
+  upgrades:
+  - id: AddSlot
+    addItem: 1
+    addHeat: 0
+    price: 5000
+    purchased: 0
+  - id: AddHeat1
+    addItem: 0
+    addHeat: 25
+    price: 2000
+    purchased: 0
+  - id: AddHeat2
+    addItem: 0
+    addHeat: 25
+    price: 4000
+    purchased: 0
+  - id: AddHeat3
+    addItem: 0
+    addHeat: 25
+    price: 6000
+    purchased: 0
+  - id: AddHeat4
+    addItem: 0
+    addHeat: 25
+    price: 8000
+    purchased: 0

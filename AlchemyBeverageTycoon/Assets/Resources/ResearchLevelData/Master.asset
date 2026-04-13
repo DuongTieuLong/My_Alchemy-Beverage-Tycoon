@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b899ca7a236bd4c9ac0d0f7da6406b, type: 3}
+  m_Name: Master
+  m_EditorClassIdentifier: 
+  recipeToUnlock:
+  - {fileID: 11400000, guid: 777f09a9e7022954193c97d82180364f, type: 2}
+  - {fileID: 11400000, guid: 398a9470774b4d549ae5e3b09ed65c33, type: 2}
+  - {fileID: 11400000, guid: 38865a66cca3a3f40a666f733ff76cdc, type: 2}
+  levelName: Master
+  goldRequired: 8000
+  itemRequirements:
+  - item: {fileID: 11400000, guid: e4aadf30f45207649a0af764d617a17e, type: 2}
+    requiredAmount: 8
+  - item: {fileID: 11400000, guid: e5ec640f980cf41499c88738efcded98, type: 2}
+    requiredAmount: 8
+  - item: {fileID: 11400000, guid: 0efbc90bc84d79644883f6ed0a810ed5, type: 2}
+    requiredAmount: 8
+  isMax: 0

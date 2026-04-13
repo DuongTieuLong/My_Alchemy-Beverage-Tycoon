@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7f171e4e0e89746b2c8801dd0d3d6b, type: 3}
+  m_Name: "Dragon\u2019s Vitalis Recipe"
+  m_EditorClassIdentifier: 
+  recipeRank: 4
+  potion: {fileID: 11400000, guid: 70172aeb6511aa14c92e2802e2d85577, type: 2}
+  requiredIngredients:
+  - {fileID: 11400000, guid: 486514662b7f7db4da1d62f8f7cb53fe, type: 2}
+  - {fileID: 11400000, guid: e5ec640f980cf41499c88738efcded98, type: 2}
+  - {fileID: 11400000, guid: 486514662b7f7db4da1d62f8f7cb53fe, type: 2}
+  timeToBrew: 15
+  minTemp: 197
+  maxTemp: 198
+  optimalStir: 3
+  autoUnlockThreshold: 12
+  brewedCount: 0

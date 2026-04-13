@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e6081357506ee479f70327156ab8e4, type: 3}
+  m_Name: Sunscar Desert
+  m_EditorClassIdentifier: 
+  expeditionTitle: Sunscar Desert
+  description: Extreme temperature, bright raw material products.
+  levelDifficulty: 4
+  requiredPower: 4500
+  durationInPeriods: 4
+  baseSuccessRate: 50
+  currentSuccessRate: 50
+  regionElement: 5
+  maxLootItems: 20
+  bassMaxLootItems: 10
+  possibleLoots:
+  - {fileID: 11400000, guid: 486514662b7f7db4da1d62f8f7cb53fe, type: 2}
+  - {fileID: 11400000, guid: c92d42cd9dbc7a34381ee8884ebde3fc, type: 2}
+  - {fileID: 11400000, guid: fa647f54a8cdad14a888614dbd6d9847, type: 2}
+  expeditionMilitary: {fileID: 11400000, guid: ae0d914560fe46742b5f2d07d0a011eb, type: 2}
+  isOnExpedition: 0
